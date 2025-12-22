@@ -12,7 +12,7 @@ const featuredPlaces = [
     id: 1,
     slug: 'isla-incahuasi',
     title: 'Isla Incahuasi',
-    description: 'Isla de cactus gigantes en medio del Salar',
+    description: 'Isla de cactus gigantes verdes en medio del Salar',
     image: '/images/lugares/isla-incahuasi/main.jpg',
     destacado: true,
   },

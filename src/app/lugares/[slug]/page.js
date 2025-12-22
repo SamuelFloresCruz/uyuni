@@ -4,7 +4,8 @@ import { getLugarBySlug } from '@/lib/supabase'
 import { lugaresData } from '@/data/lugares'
 
 export async function generateMetadata({ params }) {
-  const lugar = lugaresData.find(l => l.slug === params.slug)
+  const { slug } = await params
+  const lugar = lugaresData.find(l => l.slug === slug)
   
   if (!lugar) {
     return {
@@ -19,17 +20,18 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function LugarDetailPage({ params }) {
+  const { slug } = await params
   // Intentar obtener de Supabase, si falla usar datos locales
   let lugar = null
   
   try {
-    lugar = await getLugarBySlug(params.slug)
+    lugar = await getLugarBySlug(slug)
     if (!lugar) {
-      lugar = lugaresData.find(l => l.slug === params.slug)
+      lugar = lugaresData.find(l => l.slug === slug)
     }
   } catch (error) {
     console.error('Error al cargar lugar:', error)
-    lugar = lugaresData.find(l => l.slug === params.slug)
+    lugar = lugaresData.find(l => l.slug === slug)
   }
 
   if (!lugar) {
