@@ -1,0 +1,68 @@
+{
+  "isla-incahuasi": {
+    "descripcion": "La Isla Incahuasi, también conocida como Isla del Pescado, es una formación rocosa ubicada en el corazón del Salar de Uyuni. Esta isla está cubierta de cactus gigantes que pueden alcanzar hasta 12 metros de altura y vivir más de 1,200 años.",
+    "datos_interesantes": [
+      "Los cactus pueden vivir más de 1,200 años",
+      "Altitud: 3,800 metros sobre el nivel del mar",
+      "Superficie: aproximadamente 24.62 hectáreas",
+      "Declarada Monumento Natural en 1992",
+      "Entrada: 30 Bs. por persona",
+      "Tiempo de visita recomendado: 1-2 horas"
+    ]
+  },
+  "hotel-sal": {
+    "descripcion": "El Hotel de Sal es una experiencia única en el mundo. Construido completamente con bloques de sal extraídos del mismo Salar, ofrece habitaciones con paredes, pisos, techos y muebles hechos de sal.",
+    "datos_interesantes": [
+      "Construido con más de 1 millón de bloques de sal",
+      "Incluye 16 habitaciones con camas de sal",
+      "Restaurant con capacidad para 40 personas",
+      "Temperatura promedio nocturna: -5°C a -15°C",
+      "WiFi y agua caliente disponibles",
+      "Precio aproximado: $80-$120 USD por noche"
+    ]
+  },
+  "efecto-espejo": {
+    "descripcion": "Durante la temporada de lluvias (diciembre a marzo), el Salar se cubre con una fina capa de agua de aproximadamente 2-3 cm que crea un efecto espejo perfecto, reflejando el cielo y las nubes de manera espectacular.",
+    "datos_interesantes": [
+      "Mejor época: enero y febrero",
+      "Profundidad del agua: 2-3 centímetros",
+      "Temperatura del agua: 5°C - 10°C",
+      "Crea reflexiones perfectas hasta 15 km de distancia",
+      "Ideal para fotografía al amanecer y atardecer",
+      "Tours específicos disponibles desde $50 USD"
+    ]
+  },
+  "ojos-agua": {
+    "descripcion": "Los Ojos del Salar son formaciones geológicas fascinantes donde el agua subterránea brota del suelo creando pozas de agua cristalina con alta concentración de sal.",
+    "datos_interesantes": [
+      "Profundidad promedio: 10-30 metros",
+      "Temperatura del agua: constante 12°C",
+      "Concentración de sal: 300g/litro (10 veces más que el mar)",
+      "Más de 50 ojos identificados en el Salar",
+      "Formaciones hexagonales de 3-4 metros de diámetro",
+      "Agua emerge de acuíferos subterráneos profundos"
+    ]
+  },
+  "plaza-banderas": {
+    "descripcion": "La Plaza de las Banderas es un punto emblemático del Salar de Uyuni donde se exhiben banderas de numerosos países del mundo. Este lugar simboliza la unión internacional y es uno de los puntos más fotografiados por turistas de todas las nacionalidades.",
+    "datos_interesantes": [
+      "Más de 80 banderas de diferentes países",
+      "Inaugurada oficialmente en 2013",
+      "Punto de descanso con baños básicos",
+      "Visitada por más de 500 turistas diarios en temporada alta",
+      "Incluye banderas de todos los continentes",
+      "Renovación de banderas cada 6 meses por el clima"
+    ]
+  },
+  "museo-sal": {
+    "descripcion": "El Museo de Sal ofrece una experiencia educativa completa sobre la historia geológica del Salar, su formación hace millones de años, y la importancia cultural y económica de la sal en la región.",
+    "datos_interesantes": [
+      "10 mil millones de toneladas de sal",
+      "50-70% de las reservas mundiales de litio",
+      "Formado hace aproximadamente 40,000 años",
+      "Entrada gratuita con donación voluntaria",
+      "Exhibe 25 esculturas permanentes de sal",
+      "Tours guiados disponibles en español, inglés y francés"
+    ]
+  }
+}
