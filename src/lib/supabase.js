@@ -45,7 +45,7 @@ export async function getLugarBySlug(slug) {
       .from('lugares')
       .select('*')
       .eq('slug', slug)
-      .single()
+      .maybeSingle()
 
     if (error) throw error
     return data

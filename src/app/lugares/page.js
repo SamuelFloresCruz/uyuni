@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import PlaceGrid from '@/components/lugares/PlaceGrid'
 import SearchBar from '@/components/lugares/SearchBar'
 import { getLugares } from '@/lib/supabase'
@@ -39,7 +40,13 @@ export default async function LugaresPage() {
 
         {/* Buscador */}
         <div className="mb-12">
-          <SearchBar lugares={lugares} />
+          <Suspense fallback={
+            <div className="max-w-2xl mx-auto">
+              <div className="w-full h-14 bg-gray-200 rounded-full animate-pulse"></div>
+            </div>
+          }>
+            <SearchBar lugares={lugares} />
+          </Suspense>
         </div>
 
         {/* Grid de lugares */}
