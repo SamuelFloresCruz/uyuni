@@ -10,7 +10,7 @@ export default function ContactoPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <section className="bg-gradient-to-br from-primary to-primary-dark text-white py-16">
+      <section className="bg-gradient-to-br from-gray-600 to-gray-800 text-white py-16">
         <div className="container-custom text-center">
           <h1 className="text-5xl font-bold mb-4">
             Contáctanos
