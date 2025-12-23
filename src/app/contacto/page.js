@@ -32,7 +32,7 @@ export default function ContactoPage() {
             <ContactForm />
           </div>
 
-          {/* Información adicional */}
+          {/* información adicional */}
           <div>
             <h2 className="text-3xl font-bold mb-6">Información del Proyecto</h2>
             <AuthorInfo />
